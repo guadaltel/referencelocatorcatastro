@@ -1,0 +1,25 @@
+{
+  "url": {
+    "name": "ReferenceLocatorCatastro",
+    "separator": "*"
+  },
+  "constructor": "M.plugin.ReferenceLocatorCatastro",
+  "parameters": [],
+  "files": {
+    "ol": {
+      "scripts": "referencelocatorcatastro.ol.min.js",
+      "styles": "referencelocatorcatastro.ol.min.css"
+    }
+  },
+  "metadata": {
+    "name": "ReferenceLocatorCatastro",
+    "description": "Catastro Search",
+    "text": "Catastro Search by reference number or address",
+    "version": "1.0.0",
+    "date": "July 11th, 2019",
+    "author": "",
+    "org": "Consejería de Medioambiente y Ordenación del Territorio de la Junta de Andalucía",
+    "tags": "mapea,plugin",
+    "icon": "./facade/assets/icons/icons.svg"
+  }
+}
