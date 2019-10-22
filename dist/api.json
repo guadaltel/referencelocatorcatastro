@@ -7,9 +7,36 @@
   "parameters": [{
     "type": "object",
     "properties": [{
-      "type": "object",
-      "name": "config",
+      "type": "simple",
+      "name": "RCCOOR_url",
       "position": 0
+    }, {
+      "type": "simple",
+      "name": "CMC_url",
+      "position": 1
+    }, {
+      "type": "simple",
+      "name": "DNPRC_url",
+      "position": 2
+    }, {
+      "type": "simple",
+      "name": "CPMRC_url",
+      "position": 3
+    }, {
+      "type": "simple",
+      "name": "DNPPP_url",
+      "position": 4
+    }, {
+      "type": "object",
+      "name": "catastroWMS",
+      "position": 5,
+      "properties": [{
+        "type": "simple",
+        "name": "wms_url"
+      }, {
+        "type": "simple",
+        "name": "name"
+      }]
     }]
   }],
   "files": {
@@ -22,8 +49,8 @@
     "name": "ReferenceLocatorCatastro",
     "description": "Catastro Search",
     "text": "Catastro Search by reference number or address",
-    "version": "1.0.0",
-    "date": "July 11th, 2019",
+    "version": "1.1.0",
+    "date": "October 22th, 2019",
     "author": "",
     "org": "Consejería de Medioambiente y Ordenación del Territorio de la Junta de Andalucía",
     "tags": "mapea,plugin",
