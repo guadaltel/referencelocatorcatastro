@@ -48,8 +48,8 @@
   }],
   "files": {
     "ol": {
-      "scripts": "referencelocatorcatastro.ol.min.js",
-      "styles": "referencelocatorcatastro.ol.min.css"
+      "scripts": ["referencelocatorcatastro.ol.min.js"],
+      "styles": ["referencelocatorcatastro.ol.min.css"]
     }
   },
   "metadata": {
