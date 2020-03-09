@@ -61,6 +61,7 @@
     "author": "",
     "org": "Consejería de Medioambiente y Ordenación del Territorio de la Junta de Andalucía",
     "tags": "mapea,plugin",
-    "icon": "./facade/assets/icons/icons.svg"
+    "icon": "./facade/assets/icons/icons.svg",
+    "centralized": true
   }
 }
